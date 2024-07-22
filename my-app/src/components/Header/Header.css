@@ -1,0 +1,51 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: normal;
+    color: darkred;
+}
+
+.links{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+.links li{
+    list-style: none;
+   
+}
+.links li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkblue;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-underline-offset: 5px;
+    
+    
+}
+.links a.active{
+    color: darkred;
+}
+.links li a:hover{
+    border-bottom: 2px darkblue solid;
+    padding-bottom: 0.25rem;
+}
+
+.links li a.active:hover{
+    border-bottom: 2px darkred solid;
+    padding-bottom: 0.25rem;
+}
+
+

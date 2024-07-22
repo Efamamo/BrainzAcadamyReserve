@@ -1,0 +1,138 @@
+.detail-container{
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px 20px;
+}
+
+.detail-intro{
+    text-align: center;
+}
+
+.detail-container h1{
+    text-align: center;
+}
+
+.detail-container li{
+    list-style: none;
+}
+
+.detail-summery{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+    background-color: white;
+}
+
+.chapters{
+    background-color: white;
+    padding: 10px 20px;
+}.outer-detail-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+    align-items: start;
+}
+
+.sidebar{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 30%;
+
+}
+
+.sidebar h2{
+    text-align: center;
+}
+.detail-container{
+    width: 55%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px 20px;
+}
+
+.detail-intro{
+    text-align: center;
+}
+
+.detail-container h1{
+    text-align: center;
+}
+
+.detail-container li{
+    list-style: none;
+    font-size: 18px;
+    padding: 3px 0;
+    color: rgb(14, 14, 62);
+}
+
+.detail-summery{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+    background-color: white;
+}
+
+.chapters{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.bottom-detail{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.related-links{
+    display: flex;
+    margin-left: 100px;
+    gap: 30px;
+    background-color: white;
+    margin: 20px 50px;
+    padding: 5px 65px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: ease 1.2s;
+
+
+}
+
+.related-links img{
+    width: 30px;
+    height: 30px;
+}
+
+.related-links:hover{
+    transform: scale(1.02);
+
+}
+.detail-container{
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px 20px;
+}
+
+.detail-intro{
+    text-align: center;
+}
+
+.detail-container h1{
+    text-align: center;
+}
+
+.detail-container li{
+    list-style: none;
+}
+
+.detail-summery{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+    background-color: white;
+}
+
+.chapters{
+    background-color: white;
+    padding: 10px 20px;
+}
+

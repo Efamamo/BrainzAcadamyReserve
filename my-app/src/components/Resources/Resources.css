@@ -1,0 +1,50 @@
+
+main{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.choice button{
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(109, 137, 140, 0.4);
+}
+.choice h2{
+    color: rgb(2, 2, 82);
+}
+
+
+.elementary {
+    background-color: #5094f5; /* Sky Blue */
+   
+}
+
+.highschool {
+    background-color: #db7522; /* Orange */
+   
+}
+
+.higher-level {
+    background-color: #008080; /* Teal */
+  
+}
+
+.general {
+    background-color: #2F4F4F; /* Dark Slate Gray */
+   
+}
+
+button:hover {
+    opacity: 0.8;
+}

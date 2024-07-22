@@ -1,0 +1,72 @@
+.general-container{
+    margin-top: 100px;
+}
+
+.search{
+    margin: 10px 0 30px 75px;
+}
+
+.intro{
+    width: 90%;
+    padding-left: 45px;
+    margin: 50px auto ;
+}
+
+
+.wiki{
+    margin-top: 20px;
+}
+.each-general{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.image-container{
+    width: 30%;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.description-container{
+    width: 50%;
+}
+
+.quiz{
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(109, 137, 140, 0.4);
+    color: rgb(38, 167, 210);
+    margin: auto;
+    display: block;
+}
+body>h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.load-more-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto;
+}
+.load-more-btn:hover {
+    background-color: #0056b3;
+}

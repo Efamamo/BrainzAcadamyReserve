@@ -1,0 +1,38 @@
+.each{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 20px;
+    padding: 10px;
+    transition: ease 1.2s;
+    cursor: pointer;
+}
+.each img{
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.general-search{
+    margin-top: 40px;
+}
+
+.each:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
+
+.each-link{
+    text-decoration: none;
+    color: black;
+}
+
+.general-intro{
+    margin: 100px 30px 0;  
+}
+
+.interest{
+    margin-left: 30px;
+}
+.general-container{
+    margin-bottom: 100px;
+}

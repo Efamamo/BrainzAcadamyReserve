@@ -1,0 +1,25 @@
+.books{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.books>p{
+    width: 90%;
+    margin: auto;
+}
+.grade{
+    width: 80%;
+    margin: auto;
+}
+
+.grade h2{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(4, 4, 64);
+}
+
+a{
+    color: black;
+}

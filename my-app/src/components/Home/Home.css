@@ -1,0 +1,53 @@
+.landing-container{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.landing-container .greeting{
+    width: 60%;
+}
+
+.landing-image-container{
+    width: 30%;
+    margin-top: 70px;
+}
+
+
+.welcome{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+
+.outer-container{
+    width: 100%;
+}
+
+.intro{
+    width: 60%;
+    margin-bottom: 50px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+img.header-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.get-started{
+    text-decoration: none;
+    font-weight: bold;
+}
